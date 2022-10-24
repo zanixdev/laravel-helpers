@@ -1,0 +1,27 @@
+{
+    "name": "zanixdev/laravel-helpers",
+    "description": "Opinionated package of Laravel helpers",
+    "autoload": {
+        "psr-4": {
+            "Zanixdev\\LaravelHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zanix",
+            "email": "info@zanix.io"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^7||^8||^9",
+        "illuminate/console": "^7||^8||^9"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zanixdev\\LaravelHelpers\\LaravelHelpersServiceProvider"
+            ]
+        }
+    }
+}
