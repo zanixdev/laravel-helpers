@@ -1,6 +1,7 @@
 {
     "name": "zanixdev/laravel-helpers",
     "description": "Opinionated package of Laravel helpers",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Zanixdev\\LaravelHelpers\\": "src/"
