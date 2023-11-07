@@ -17,6 +17,7 @@ class LaravelHelpersServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
+                MakeInterfaceCommand::class,
                 MakeServiceCommand::class,
                 MakeEnumCommand::class,
             ]);
